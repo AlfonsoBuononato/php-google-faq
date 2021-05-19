@@ -1,0 +1,99 @@
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #5f6368;
+}
+
+.container {
+  max-width: 980px;
+  margin: auto;
+}
+
+/* MENU */
+header {
+  border-bottom: 1px solid rgba(151, 151, 151, 0.5);
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 10px 0 10px;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 25px;
+  cursor: pointer;
+}
+.header-left img {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.header-right span {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  font-size: 22px;
+  color: white;
+  background-color: #f4511e;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.header-right i {
+  cursor: pointer;
+}
+
+/* NAV BAR */
+
+.nav-bar {
+  margin: 10px 10px 0 10px;
+}
+
+.nav-bar li {
+  display: inline-block;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.nav-bar li:first-child {
+  padding: 0;
+}
+
+.nav-bar li:last-child {
+  border-bottom: 3px solid #3367d6;
+}
+
+.nav-bar li:last-child a {
+  color: #3367d6;
+}
+
+/* MAIN */
+
+.faq {
+  margin-top: 60px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.faq p {
+  margin-top: 30px;
+  line-height: 25px;
+}
